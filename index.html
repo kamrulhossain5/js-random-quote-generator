@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+        <title>Random Quote Machine</title>
+        <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body translate="no">
+        <div id="wrapper">
+            <div id="quote-box">
+                <div class="quote-text">
+                    <i class="fa fa-quote-left"> </i><span id="text"></span>
+                </div>
+                <div class="quote-author">
+                    - <span id="author"></span>
+                </div>
+                <div class="buttons">
+                    <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank">
+                        <i class="fa fa-tumblr"></i>
+                    </a>
+                    <button class="button" id="new-quote">New quote</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+        <script id="rendered-js" src="script.js"></script>
+    </body>
+</html>
